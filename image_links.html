@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links and images assignment website</title>
+    <style>
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+        height: auto;
+      }
+      .section {
+        margin-bottom: 20px;
+      }
+      .section-gallery .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+      }
+
+      .section-gallery img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section">
+      <h1>Home</h1>
+      <p>
+        Welcome to our website! Explore the marvels of technology, nature, and
+        food through our curated images.
+      </p>
+      <a href="https://example.com/technology">
+        <img
+          src="https://nwtcdigitalmarketing.files.wordpress.com/2020/04/technology-and-us.jpg?w=670"
+          alt="Technology Image"
+          loading="lazy"
+        />
+      </a>
+    </div>
+
+    <div class="section-gallery">
+      <h2>Gallery</h2>
+      <p>Discover the beauty of nature.</p>
+      <div class="grid">
+        <a href="https://example.com/nature1">
+          <img
+            src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C176%2C3008%2C1654&wid=2000&hei=1100&scl=1.504"
+            alt="Mountain Landscape"
+            loading="lazy"
+          />
+        </a>
+        <a href="https://example.com/nature2">
+          <img
+            src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C176%2C3008%2C1654&wid=2000&hei=1100&scl=1.504"
+            alt="Nature Image 2"
+            loading="lazy"
+          />
+        </a>
+        <a href="https://example.com/nature3">
+          <img
+            src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C176%2C3008%2C1654&wid=2000&hei=1100&scl=1.504"
+            alt="Nature Image 3"
+            loading="lazy"
+          />
+        </a>
+        <a href="https://example.com/nature4">
+          <img
+            src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C176%2C3008%2C1654&wid=2000&hei=1100&scl=1.504"
+            alt="Nature Image 4"
+            loading="lazy"
+          />
+        </a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Menu</h2>
+      <p>Feast your eyes on our delicious offerings.</p>
+      <a href="https://example.com/food">
+        <img
+          src="https://www.allrecipes.com/thmb/m4Uz46d-neAIwiBEdcCeBNbppZM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6776_Pizza-Dough_ddmfs_4x3_1724-fd91f26e0bd6400a9e89c6866336532b.jpg"
+          alt="Pizza"
+          loading="lazy"
+        />
+      </a>
+    </div>
+  </body>
+</html>
